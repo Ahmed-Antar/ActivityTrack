@@ -13,5 +13,7 @@ namespace ActivityTrack.Models
         {
 
         }
+        public DbSet<ApplicationUser> applicationUsers { get; set; }
+
     }
 }
