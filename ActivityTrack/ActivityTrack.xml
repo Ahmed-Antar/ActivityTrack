@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ActivityTrack</name>
+    </assembly>
+    <members>
+        <member name="T:ActivityTrack.Controllers.ApplicationUserController">
+            <summary>
+            Gestion des Utilisateurs
+            </summary>
+        </member>
+        <member name="M:ActivityTrack.Controllers.ApplicationUserController.PostApplicationUser(ActivityTrack.Models.ApplicationUserModel)">
+            <summary>
+            Création de compte
+            </summary>
+            <param name="model">Objet User</param>
+            <returns></returns>
+        </member>
+        <member name="M:ActivityTrack.Controllers.ApplicationUserController.Login(ActivityTrack.Models.LoginModel)">
+            <summary>
+            Login
+            </summary>
+            <param name="model">Objet User</param>
+            <returns></returns>
+        </member>
+        <member name="T:ActivityTrack.Controllers.UserProfileController">
+            <summary>
+            Profile Utilisateur
+            </summary>
+        </member>
+        <member name="M:ActivityTrack.Controllers.UserProfileController.GetUserProfile">
+            <summary>
+            Retoune le profile utilisateur
+            </summary>
+            <returns>objet utilisateur</returns>
+        </member>
+        <member name="T:ActivityTrack.Controllers.ValuesController">
+            <summary>
+            CRUD API pour l'objet projet.
+            </summary>
+        </member>
+        <member name="M:ActivityTrack.Controllers.ValuesController.Get">
+            <summary>
+            Liste des projets 
+            pas de parametres.
+            Retourne une liste de projets.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ActivityTrack.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Prend l'id du projet comme parametre.
+            Retourne un projet.
+            </summary>
+            <param name="id">Id de projet</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
